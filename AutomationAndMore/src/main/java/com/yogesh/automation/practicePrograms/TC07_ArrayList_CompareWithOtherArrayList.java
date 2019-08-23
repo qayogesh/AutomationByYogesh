@@ -28,6 +28,15 @@ public class TC07_ArrayList_CompareWithOtherArrayList {
 		arrayList2.add(10);
 		System.out.println(arrayList2);
 
+		ArrayList<String> arrayList3 = new ArrayList<>();
+		arrayList3.add("saturday");
+		arrayList3.add("sunday");
+		arrayList3.add("monday");
+		arrayList3.add("tuesday");
+		arrayList3.add("monday");
+		arrayList3.add("saturday");
+		System.out.println(arrayList3);
+
 		/**
 		 * Compare two array lists
 		 */
@@ -45,18 +54,21 @@ public class TC07_ArrayList_CompareWithOtherArrayList {
 		System.out.println(arrayList2);
 		System.out.println("arrayList1 Max " + Collections.max(arrayList1));
 		System.out.println("arrayList2 Max " + Collections.max(arrayList2));
+		System.out.println("arrayList3 Max " + Collections.max(arrayList3));
 
 		/**
 		 * Min
 		 */
 		System.out.println("arrayList1 min " + Collections.min(arrayList1));
 		System.out.println("arrayList2 min " + Collections.min(arrayList2));
+		System.out.println("arrayList3 min " + Collections.min(arrayList3));
 
 		/**
 		 * duplicates flag
 		 */
 		System.out.println("arrayList1 distinct " + arrayList1.stream().distinct().collect(Collectors.toSet()));
 		System.out.println("arrayList2 distinct " + arrayList2.stream().distinct().collect(Collectors.toSet()));
+		System.out.println("arrayList3 distinct " + arrayList3.stream().distinct().collect(Collectors.toSet()));
 
 		System.out.println("arrayList1 duplicate "
 				+ arrayList1.retainAll(arrayList1.stream().distinct().collect(Collectors.toSet())));
@@ -69,11 +81,16 @@ public class TC07_ArrayList_CompareWithOtherArrayList {
 		Collections.sort(arrayList1);
 		System.out.println("Ascending order arrayList1 " + arrayList1);
 
+		Collections.sort(arrayList3);
+		System.out.println("Ascending order arrayList3 " + arrayList3);
+
 		/**
 		 * Descending order
 		 */
 		Collections.reverse(arrayList2);
 		System.out.println("Descending order arrayList2 " + arrayList2);
 
+		Collections.reverse(arrayList3);
+		System.out.println("Descending order arrayList3 " + arrayList3);
 	}
 }
