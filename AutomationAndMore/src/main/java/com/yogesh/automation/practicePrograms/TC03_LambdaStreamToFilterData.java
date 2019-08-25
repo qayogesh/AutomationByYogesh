@@ -58,8 +58,6 @@ public class TC03_LambdaStreamToFilterData {
 		Function<List<Integer>, Integer> fun = Product::getMeSum;
 		System.out.println(fun.apply(intList));
 
-	
-		
 	}
 
 }

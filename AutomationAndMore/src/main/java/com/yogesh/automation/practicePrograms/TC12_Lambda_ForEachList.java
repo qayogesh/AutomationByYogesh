@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-public class Lambda_ForEachList {
+public class TC12_Lambda_ForEachList {
 
 	public static void main(String[] args) {
 

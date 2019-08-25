@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class Internationalization {
+public class TC01_Internationalization {
 
 	public static void main(String[] args) {
 
@@ -17,3 +17,9 @@ public class Internationalization {
 		System.out.println(Locale.getISOCountries().toString());
 	}
 }
+
+//output
+/*
+en_US
+zh_CN
+*/
