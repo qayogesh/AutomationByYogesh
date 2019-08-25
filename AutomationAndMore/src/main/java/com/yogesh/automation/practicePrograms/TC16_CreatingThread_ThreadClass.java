@@ -10,5 +10,6 @@ public class TC16_CreatingThread_ThreadClass extends Thread {
 
 		TC16_CreatingThread_ThreadClass t1 = new TC16_CreatingThread_ThreadClass();
 		t1.start();
+		System.out.println("Thread id =>" + t1.currentThread().getId());
 	}
 }
