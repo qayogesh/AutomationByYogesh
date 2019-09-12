@@ -17,7 +17,6 @@ public class StarWarsGetStarships extends RestUtils {
 
 	private static final String HOST = "https://swapi.co/api/";
 	private static final String basePath = "starships/9/";
-	RequestSpecification requestSpec;
 
 	@Test
 	public void apiGetStarshipsListing() {
