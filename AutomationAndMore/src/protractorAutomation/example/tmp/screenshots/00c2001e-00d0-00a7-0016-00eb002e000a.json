@@ -1,0 +1,1 @@
+{"description":"Validate that each api type has contents available|Should retrive search result on entering search text","passed":true,"pending":false,"os":"Windows NT","instanceId":6780,"browser":{"name":"chrome","version":"77.0.3865.90"},"message":"Passed","browserLogs":[],"screenShotFile":"00c2001e-00d0-00a7-0016-00eb002e000a.png","timestamp":1569350047126,"duration":383}
