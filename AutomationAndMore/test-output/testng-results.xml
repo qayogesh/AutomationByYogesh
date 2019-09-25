@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36431" started-at="2019-09-12T05:16:29Z" finished-at="2019-09-12T05:17:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36431" started-at="2019-09-12T05:16:29Z" finished-at="2019-09-12T05:17:06Z">
+      <class name="com.api.restAssured.apiTests.PostBookReference">
+        <test-method status="PASS" signature="PostBookReference()[pri:0, instance:com.api.restAssured.apiTests.PostBookReference@4fb64261]" name="PostBookReference" duration-ms="36063" started-at="2019-09-12T05:16:30Z" finished-at="2019-09-12T05:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostBookReference -->
+      </class> <!-- com.api.restAssured.apiTests.PostBookReference -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
