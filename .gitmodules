@@ -1,0 +1,3 @@
+[submodule "AutomationAndMore/protractorJavascript"]
+	path = AutomationAndMore/protractorJavascript
+	url = https://github.com/qayogesh/AutomationByYogesh/tree/master/AutomationAndMore/protractorJavascript
